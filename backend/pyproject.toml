@@ -1,0 +1,13 @@
+[build-system]
+requires = [
+    "setuptools"
+]
+
+[project]
+name="VIMCodeBackend"
+dependencies=[
+    "uvicorn",
+    "click",
+    "pydantic",
+    "fastapi"
+]
